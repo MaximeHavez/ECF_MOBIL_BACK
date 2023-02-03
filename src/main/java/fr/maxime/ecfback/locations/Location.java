@@ -17,7 +17,6 @@ import java.time.LocalDate;
 @Document
 public class Location {
 
-    @Id
     private String id;
     private LocalDate dateDebut;
     private LocalDate dateFin;
